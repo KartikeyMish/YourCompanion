@@ -105,8 +105,8 @@ Now go to the link in blue color which is shown on the CLI and you will be able 
 ![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/7d375d1d-72d1-4970-8176-cf0a18b75696)
 
 > `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
-> 
-<br><br>
+<br>
+
 ## Sponsoring💰🤝 and Supporting 🙌👨‍💻 Your Companion 
 
 Your Companion is a project driven by innovation and community support. We invite individuals and organizations to sponsor and support our efforts in the following ways:
