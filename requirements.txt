@@ -1,0 +1,8 @@
+twilio
+openai 
+google-cloud-storage
+sounddevice
+scipy
+numpy
+Python-IO
+wavio
