@@ -1,4 +1,4 @@
-# Your Companion - A Personalized AI Chatbot 👋🤖
+# 🔮 Your Companion - Distress Integrated Persona AI Chatbot
 [![GitHub license](https://img.shields.io/github/license/kartikeymish/yourcompanion)](https://github.com/kartikeymish/yourcompanion/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/kartikeymish/yourcompanion)](https://github.com/kartikeymish/yourcompanion/issues)
 [![GitHub stars](https://img.shields.io/github/stars/kartikeymish/yourcompanion)](https://github.com/kartikeymish/yourcompanion/stargazers)
