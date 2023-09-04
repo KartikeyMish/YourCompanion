@@ -24,12 +24,13 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 ## Demo 🚀
 
-- Simply Friendly AI
-<br>
-<img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/6f775541-36e3-4867-830e-24f8614f1186" style="height:50%;width:50%"></img>
+- While talking to Simply Friendly AI
+<div align="center">
+  <img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/6f775541-36e3-4867-830e-24f8614f1186" style="height:50%;width:50%"></img>
+</div>
   <br>
 
-- Sending sms in distress in backed
+- Incase of Distress sending sms in distress in backend <br><br>
   ![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/953e5804-d895-4110-9718-ab15838cfd4b)
 
 
@@ -55,9 +56,9 @@ By acquiring and properly configuring these API keys, you'll enable Your Compani
     <img alt="Textbase python library" src="assets/logo.svg" width="352" height="59" style="max-width: 100%;">
   </picture>
   <br/>
-  <br/>
 </p
-  <br/>  <br/>
+  <br/> 
+  
 ## Installation
 Make sure you have `python version >=3.9.0`, it's always good to follow the [docs](https://docs.textbase.ai/get-started/installation) 👈🏻
 ### 1. Through pip
@@ -101,14 +102,24 @@ Response:
 Path to the main.py file: examples/openai-bot/main.py # You can create a main.py by yourself and add that path here. NOTE: The path should not be in quotes
 ```
 Now go to the link in blue color which is shown on the CLI and you will be able to chat with your bot!
-![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/7b51f190-0cdd-4374-ae75-44a288910d65)
+![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/7d375d1d-72d1-4970-8176-cf0a18b75696)
 
+> `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
+> 
+<br><br>
+## Sponsoring💰🤝 and Supporting 🙌👨‍💻 Your Companion 
 
-### `Other commands have been mentioned in the documentaion website.` [Have a look](https://docs.textbase.ai/usage) 😃!
+Your Companion is a project driven by innovation and community support. We invite individuals and organizations to sponsor and support our efforts in the following ways:
 
-## Contributions and Support 🤝
+1. **API Key Sponsorship** 🗝️: The API keys required for Google Cloud and Twilio services are essential for the continued operation of Your Companion. As these services may involve ongoing costs, sponsoring these API keys can help us keep the project accessible to users. Your sponsorship will ensure that users can continue to benefit from Your Companion's services without interruptions.
 
-We welcome contributions from the open-source community to enhance Your Companion. If you find this project valuable, consider contributing, reporting issues 🐛, or providing feedback 📫. Your support is essential to keep this project thriving.
+2. **Advanced Feature Development** 🌟: Your support enables us to implement advanced features and improvements to enhance the capabilities of Your Companion. Whether it's adding new conversational skills or improving distress detection algorithms, your contributions will directly impact the quality of the chatbot.
+
+3. **Open Source Contributions** 🤝: If you're a developer or part of an organization with technical expertise, consider contributing to the project directly. We welcome open-source contributions that help improve Your Companion and make it even more valuable to users.
+
+By sponsoring or supporting Your Companion, you contribute to the development of a compassionate and innovative AI chatbot that can positively impact users' lives. To discuss sponsorship opportunities or get involved, please visit [my sponser dashboard](https://github.com/sponsors/KartikeyMish)
+
+We sincerely appreciate your support in making Your Companion a helpful and supportive tool for users around the world.
 
 ## License 📜
 
