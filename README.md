@@ -37,11 +37,12 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 To begin with Your Companion, you'll need to acquire the necessary API keys. These keys are essential for enabling crucial functionalities in the chatbot. Here's what you need:
 
-1. **OpenAI API Key**: This key is required for using the OpenAI service, which powers the chatbot's core functionality. You can obtain an OpenAI API key by visiting the OpenAI platform and following their authentication process.
+1. **OpenAI API Key**: This key is required for using the OpenAI service, which powers the chatbot's core functionality. You can obtain an OpenAI API key by visiting the [OpenAI platform](https://www.openai.com) and following their authentication process.
 
-2. **Twilio API Key**: The Twilio API key is necessary for SMS notifications and communications. To obtain one, create an account on the Twilio platform and follow their authentication process.
+2. **Twilio API Key**: The Twilio API key is necessary for SMS notifications and communications. To obtain one, create an account on the [Twilio platform](https://www.twilio.com) and follow their authentication process.
 
 Before diving into any development or interaction, make sure to have these API keys ready and properly configured in your project. They will ensure that Your Companion functions seamlessly and efficiently.
+
 
 
 <h2 align="center">
