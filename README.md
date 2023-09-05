@@ -24,14 +24,27 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 ## Demo 🚀
 
-- While talking to Simply Friendly AI
-<div align="center">
-  <img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/6f775541-36e3-4867-830e-24f8614f1186" style="height:50%;width:50%"></img>
-</div>
-  <br>
+[Go See the Detailed Demo](https://drive.google.com/drive/folders/1_F-yX2cvbCoHjiWe9s1rydHM4xMc4wXx?usp=drive_link)
 
-- Incase of Distress sending sms in distress in backend <br><br>
-  ![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/953e5804-d895-4110-9718-ab15838cfd4b)
+
+While interacting with Simply Friendly AI, you have access to a powerful Distress Alert System. Here's how it works:
+
+<img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/54b493e9-fe11-4618-8382-dc9458b2c794" style="height: 50%; width: 50%;"></img>
+
+#### In Case of Distress:
+
+If you ever find yourself in a distressing situation, our system is designed to assist you. When you activate the distress feature, an SMS alert will be sent discreetly in the background.
+
+![SMS in Distress](https://github.com/KartikeyMish/YourCompanion/assets/76617485/c367b439-cebd-435d-9b1a-544d7e3a2772)
+
+#### Message to Authorities:
+
+Here's a glimpse of the message that will be sent to the relevant authorities once your audio is recorded and distress is confirmed:
+
+<img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/a990c17f-cad7-4f60-a864-db435cf82c7f" style="height: 50%; width: 50%;"></img>
+
+Your safety is our priority. With this system in place, you can always feel secure, knowing that help is just a click away.
+
 
 ## Before Getting Started: Acquiring API Keys 🔑
 
