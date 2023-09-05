@@ -14,11 +14,11 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 - **Distress Detection**: Your Companion cares about your well-being. It can detect distress signals from user prompts. If distress is detected using `prompts.distress`, the chatbot will take action.
 
-- **Audio Recording**: In distress situations, Your Companion records 10 seconds of audio using the Soundbox module 🎙️, preserving crucial information.
+- **Audio Recording**: In distress situations, Your Companion records 15 seconds of audio using the Soundbox module 🎙️, safeguarding  crucial information.
 
-- **Transcription Service**: To provide quick assistance, Your Companion utilizes Openai API's `audio` module which utilizes `whisper-`` to transcribe the distress audio .
+- **Accurate Transcription**: Your Companion employs OpenAI's `audio` module, leveraging the `whisper-1` model for precise, multilingual distress audio-to-text transcription, ensuring reliability and accessibility.
 
-- **Authorities Notification**: To provide quick assistance, Your Companion utilizes Twilio API to transcribe the distress audio and forwards the text to responsible authorities via Twilio SMS service 📞.
+- **Rapid Alert System**: Your Companion harnesses the power of the **Twilio API** to swiftly notify authorities. It sends the transcribed text, enriched with detailed analysis from `GPT-3.5-turbo`, via Twilio SMS service 📞 for prompt action.
 
 - **Text-based Framework**: Your Companion's backend is built entirely on a text-based framework, making it highly adaptable and efficient.
 
@@ -33,18 +33,15 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 - Incase of Distress sending sms in distress in backend <br><br>
   ![image](https://github.com/KartikeyMish/YourCompanion/assets/76617485/953e5804-d895-4110-9718-ab15838cfd4b)
 
+## Before Getting Started: Acquiring API Keys 🔑
 
-## Acquiring API Keys 🔑
+To begin with Your Companion, you'll need to acquire the necessary API keys. These keys are essential for enabling crucial functionalities in the chatbot. Here's what you need:
 
-Before you can unleash the power of Your Companion, you'll need to acquire the necessary API keys. These keys enable crucial functionalities, so follow these steps to get started:
+1. **OpenAI API Key**: This key is required for using the OpenAI service, which powers the chatbot's core functionality. You can obtain an OpenAI API key by visiting the OpenAI platform and following their authentication process.
 
-1. **Google Cloud API Key**: To securely store distress audio recordings, you'll need a Google Cloud API key. You can obtain one by visiting the [Google Cloud Console](https://console.cloud.google.com/), creating a project, and enabling the necessary services. Once you have the API key, make sure to configure it appropriately.
+2. **Twilio API Key**: The Twilio API key is necessary for SMS notifications and communications. To obtain one, create an account on the Twilio platform and follow their authentication process.
 
-2. **Twilio API Key**: For transcribing distress audio and forwarding it via SMS, you'll need a Twilio API key. Visit the [Twilio Console](https://www.twilio.com/console), create an account, and obtain the API key. Remember to configure it within your application for seamless functionality.
-
-3. **Other API Keys**: Depending on your project's specific requirements, you might need additional API keys like huggingface. Make sure to document and secure all relevant keys to ensure the smooth operation of Your Companion.
-
-By acquiring and properly configuring these API keys, you'll enable Your Companion to provide its full range of features, ensuring a seamless and supportive user experience.
+Before diving into any development or interaction, make sure to have these API keys ready and properly configured in your project. They will ensure that Your Companion functions seamlessly and efficiently.
 
 
 <h2 align="center">
