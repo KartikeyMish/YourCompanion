@@ -65,5 +65,7 @@ distress = [
     "Emergency alert, respond promptly!",
     "Urgent assistance required!",
     "Notify authorities, critical!",
-    "Crisis unfolding, respond ASAP!"
+    "Crisis unfolding, respond ASAP!",
+    "I need help immediately!",
+    "I think i am going to die!"
 ]
