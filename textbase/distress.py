@@ -10,7 +10,7 @@ class audio:
         # Sampling frequency
         freq = 44100
         # Recording duration in seconds
-        duration = 20
+        duration = 15
         
         print("Recording your voice for next 15 seconds.....")
         # Start recorder with the given values of duration and sample frequency

@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kartikeymish/yourcompanion)](https://github.com/kartikeymish/yourcompanion/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/kartikeymish/yourcompanion)](https://github.com/kartikeymish/yourcompanion/network)
 
-Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's designed to be your friendly and supportive chat partner, offering a comfortable and conversational experience. Beyond casual conversations, this project also incorporates advanced features for user safety.
+Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's designed to be your friendly and supportive chat partner, offering a comfortable and conversational experience. Beyond casual conversations, this project also incorporates advanced features for user safety i.e. whenever it detects your are in distress it records yours audio and sends it to the authorities with its thorough analysys.
 
 ## Key Features 🔑
 

@@ -25,6 +25,7 @@ shared with the appropriate authorities. Mention their name and briefly describe
 distress= """sumary_line: You are an AI system assisting emergency services. 
 Below is the transcribed 20-second audio clip in which a person is in distress. 
 Your task is to analyze the distress text based on its content and tone, and provide appropriate guidance or instructions accordingly.
+[Important] - Make it very short and precise
 
 Return: 
     Audio Transcript (20 seconds):
@@ -33,7 +34,6 @@ Return:
     Distress Text Analysis (Short and Precise):
     [Analyze the distress text, considering both its content and tone. Identify any critical information, emotional state, potential dangers, or specific needs conveyed in the text. Provide guidance or instructions based on your analysis.]
 
-Audio: 
 """
 
 
