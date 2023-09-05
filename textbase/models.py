@@ -33,7 +33,8 @@ class OpenAI:
     def generate(
         cls,
         system_prompt: str,
-        message_history: list[Message],
+        message_history: list[Message]=None,
+        text: str=None,
         model="gpt-3.5-turbo",
         max_tokens=3000,
         temperature=0.7,
@@ -41,28 +42,60 @@ class OpenAI:
         assert cls.api_key is not None, "OpenAI API key is not set."
         openai.api_key = cls.api_key
 
-        filtered_messages = []
+        # For genreating response for the authorites
+        if text:
+            response = openai.ChatCompletion.create(
+               model=model,
+               messages=[
+                   {
+                        "role": "system",
+                        "content":system_prompt
+                    },
+                    {
+                        'role': 'user',
+                        'content': text
+                    }
+               ],
+               temperature=0.7,
+               max_tokens=1000
+            )
+        # For generating response for the user
+        else:
+            filtered_messages = []
+            for message in message_history:
+                #list of all the contents inside a single message
+                contents = get_contents(message, "STRING")
+                if contents:
+                    filtered_messages.extend(contents)
 
-        for message in message_history:
-            #list of all the contents inside a single message
-            contents = get_contents(message, "STRING")
-            if contents:
-                filtered_messages.extend(contents)
-
-        response = openai.ChatCompletion.create(
-            model=model,
-            messages=[
-                {
-                    "role": "system",
-                    "content": system_prompt
-                },
-                *map(dict, filtered_messages),
-            ],
-            temperature=temperature,
-            max_tokens=max_tokens,
-        )
+            response = openai.ChatCompletion.create(
+                model=model,
+                messages=[
+                    {
+                        "role": "system",
+                        "content": system_prompt
+                    },
+                    *map(dict, filtered_messages),
+                ],
+                temperature=temperature,
+                max_tokens=max_tokens,
+            )
 
         return response["choices"][0]["message"]["content"]
+    
+    # Funtion to transcribe the distress audio , uses opeinai wisper-1 model
+    @classmethod
+    def transcribe(
+        cls,
+        file: str,
+        ):
+            assert cls.api_key is not None, "OpenAI API key is not set."
+            openai.api_key = cls.api_key
+            print("Transcribing the audio........")
+            audio_file= open(file, "rb")
+            transcript = openai.Audio.transcribe("whisper-1", audio_file)
+            print("Successfully Transcribed the audio.")
+            return transcript["text"]
 
 class HuggingFace:
     api_key = None

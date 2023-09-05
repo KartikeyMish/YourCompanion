@@ -16,9 +16,9 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 - **Audio Recording**: In distress situations, Your Companion records 10 seconds of audio using the Soundbox module 🎙️, preserving crucial information.
 
-- **Secure Cloud Storage**: The recorded audio is securely stored in a Google Cloud Bucket using the `upload()` method of the distress module, ensuring data privacy and accessibility.
+- **Transcription Service**: To provide quick assistance, Your Companion utilizes Openai API's `audio` module which utilizes `whisper-`` to transcribe the distress audio .
 
-- **Transcription Service**: To provide quick assistance, Your Companion utilizes Twilio API to transcribe the distress audio and forwards the text to responsible authorities via Twilio SMS service 📞.
+- **Authorities Notification**: To provide quick assistance, Your Companion utilizes Twilio API to transcribe the distress audio and forwards the text to responsible authorities via Twilio SMS service 📞.
 
 - **Text-based Framework**: Your Companion's backend is built entirely on a text-based framework, making it highly adaptable and efficient.
 
@@ -111,7 +111,7 @@ Now go to the link in blue color which is shown on the CLI and you will be able 
 
 Your Companion is a project driven by innovation and community support. We invite individuals and organizations to sponsor and support our efforts in the following ways:
 
-1. **API Key Sponsorship** 🗝️: The API keys required for Google Cloud and Twilio services are essential for the continued operation of Your Companion. As these services may involve ongoing costs, sponsoring these API keys can help us keep the project accessible to users. Your sponsorship will ensure that users can continue to benefit from Your Companion's services without interruptions.
+1. **API Key Sponsorship** 🗝️: The API keys required for Openai and Twilio services are essential for the continued operation of Your Companion. As these services may involve ongoing costs, sponsoring for API keys service can help us keep the project accessible to users. Your sponsorship will ensure that users can continue to benefit from Your Companion's services without interruptions.
 
 2. **Advanced Feature Development** 🌟: Your support enables us to implement advanced features and improvements to enhance the capabilities of Your Companion. Whether it's adding new conversational skills or improving distress detection algorithms, your contributions will directly impact the quality of the chatbot.
 
