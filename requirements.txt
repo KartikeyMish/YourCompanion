@@ -5,3 +5,4 @@ scipy
 numpy
 Python-IO
 wavio
+textbase-client
