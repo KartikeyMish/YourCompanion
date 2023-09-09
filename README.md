@@ -29,7 +29,7 @@ Your Companion is a personalized AI chatbot powered by LLM GPT-3.5 Turbo. It's d
 
 While interacting with Simply Friendly AI, you have access to a powerful Distress Alert System. Here's how it works:
 
-<img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/54b493e9-fe11-4618-8382-dc9458b2c794" style="height: 50%; width: 50%;"></img>
+<img src="https://github.com/KartikeyMish/YourCompanion/assets/76617485/54b493e9-fe11-4618-8382-dc9458b2c794"></img>
 
 #### In Case of Distress:
 
